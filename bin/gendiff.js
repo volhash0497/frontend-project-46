@@ -10,8 +10,8 @@ program
 program
   .description(' Compares two configuration files and shows a difference.')
   //.argument('<string>', 'string to split')
-//   .option('-V,--version', 'output the version number')
-//   .option('-h, --help', 'display help for command')
+.arguments('<filepath1> <filepath2>')
+    .option('-f, --format [type]', 'output format')
   /**.action((str, options) => {
     //const limit = options.first ? 1 : undefined;
     console.log(str.split(options.separator, limit));
