@@ -65,8 +65,8 @@ program
   .action((filepath1, filepath2) => {
     
     const [data1, data2] = getFile(filepath1, filepath2);
-    console.log(data1)
-    console.log(data2)
+    //console.log(data1)
+    //console.log(data2)
     const result = genDiff(data1, data2)
     console.log(result);
 
