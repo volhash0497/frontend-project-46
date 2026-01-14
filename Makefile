@@ -9,3 +9,6 @@ publish: #обновление пакетов
 
 lint: #lint
 	npx eslint .
+
+test:
+	npm test
